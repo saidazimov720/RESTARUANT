@@ -289,3 +289,20 @@ body {
   .food-description {
     margin: auto 1.5rem;
   }
+
+  .font-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #444;
+  }
+  
+  .food-description p {
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .food-description .food-price {
+    color: #117964;
+    font-weight: 700;
+  }
