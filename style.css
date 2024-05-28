@@ -58,3 +58,17 @@ body {
     height: 50px;
     z-index: 12;
   }
+
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+  }
+  
+  .menu-items {
+    order: 2;
+    display: flex;
+  }
+
+  
