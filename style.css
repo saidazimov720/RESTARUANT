@@ -402,3 +402,24 @@ body {
     resize: none;
   }
     
+  .form-container h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    color: #444;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
+  }
+  
+  .form-container a {
+    font-size: 1.3rem;
+  }
+  
+  #footer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2.6rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65, 65, 65);
+  }
+  
