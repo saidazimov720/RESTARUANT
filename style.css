@@ -595,3 +595,13 @@ body {
             font-weight: 500;
           }
     }
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+        .img-container h3 {
+          font-size: 1.5rem;
+        }
+      
+        .img-container .btn {
+          font-size: 0.7rem;
+        }
+      }
