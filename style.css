@@ -423,4 +423,50 @@ body {
     background: rgb(65, 65, 65);
   }
   
+  @media (max-width: 768px) {
+    .navbar {
+      opacity: 0.95;
+    }
   
+    .navbar-container input[type="checkbox"],
+    .navbar-container .hamburger-lines {
+      display: block;
+    }
+  
+    .navbar-container {
+      display: block;
+      position: relative;
+      height: 64px;
+    }
+
+    .navbar-container input[type="checkbox"] {
+        position: absolute;
+        display: block;
+        height: 32px;
+        width: 30px;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+        opacity: 0;
+      }
+      .navbar-container .hamburger-lines {
+        display: block;
+        height: 23px;
+        width: 35px;
+        position: absolute;
+        top: 17px;
+        left: 20px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+    
+      .navbar-container .hamburger-lines .line {
+        display: block;
+        height: 4px;
+        width: 100%;
+        border-radius: 10px;
+        background: #333;
+      }
+    }
