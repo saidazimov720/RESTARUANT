@@ -543,5 +543,23 @@ body {
       .img-container {
         margin: 0;
       }
-    
+    }
+
+    @media (max-width: 500px) {
+        html {
+          font-size: 65%;
+        }
+      
+        .navbar .menu-items li{
+            font-size: 1.6rem;
+        }
+      
+        .testimonial-container {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .food-menu-container img {
+          margin: auto;
+        }
     }
