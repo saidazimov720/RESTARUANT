@@ -605,3 +605,9 @@ body {
           font-size: 0.7rem;
         }
       }
+
+      @media (orientation: landscape) and (max-height: 500px) {
+        .showcase-area {
+          height: 50vmax;
+        }
+      }
